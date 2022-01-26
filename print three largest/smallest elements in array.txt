@@ -13,7 +13,7 @@ void print3largest(int arr[], int arr_size)
 		return;
 	}
 
-	third = first = second = INT16_MAX;
+	third = first = second = INT_MIN;  /////FOR  FINDING SMALLEST THREE NUMBER WRITE (INT16_MAX) INSTEAD OF (INT_MIN)
 	for(int i = 0; i < arr_size; i++)
 	{
 		
